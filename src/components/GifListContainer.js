@@ -11,7 +11,7 @@ export default class GifListContainer extends React.Component{
   changeUrl = (inputVal) => {
     this.setState({
       url: `${inputVal}`
-    }, ()=>this.componentDidMount())
+    },()=>this.componentDidMount())
   }
 
   componentDidMount(){
